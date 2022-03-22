@@ -9,8 +9,8 @@
   
   inputs.src-io-oculus-master.flake = false;
   inputs.src-io-oculus-master.owner = "nimious";
-  inputs.src-io-oculus-master.ref   = "refs/heads/master";
-  inputs.src-io-oculus-master.repo  = "io-oculus";
+  inputs.src-io-oculus-master.ref   = "master";
+  inputs.src-io-oculus-master.repo  = "io-oculus.git";
   inputs.src-io-oculus-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
